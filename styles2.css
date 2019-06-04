@@ -1,0 +1,24 @@
+.box {
+    border: 10px solid #511571;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgba(255, 0 ,0, .5);
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+.box:hover {
+    cursor: pointer;
+    transition: 2.5s;
+    background-color: rgba(0, 255 ,0, 1);
+}
+
+body {
+    /* background-size: cover; */
+    background-image: url("https://maxcdn.icons8.com/app/uploads/2018/08/how-to-create-gradient-article.jpg")
+}

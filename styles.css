@@ -1,0 +1,18 @@
+p {
+    color: red;
+    font-size: 24px;
+    
+}
+
+p.important {
+    font-weight: bold;
+}
+
+nav a {
+    display: block;
+}
+
+/* nav a::after {
+    content: "|";
+    margin-left: 10px;
+} */
